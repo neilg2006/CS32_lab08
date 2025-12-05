@@ -65,7 +65,7 @@ T SimpleList<T>::last() const {
     if (empty()) {
         throw EmptyListException();
     }
-    
+    return elements[numElements - 1];
 }
 
 
